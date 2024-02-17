@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: turquoise;
+}
+
+.nav{
+    
+    
+     padding: 20px;
+     
+     font-size: 50px;
+     font-weight: bold;
+     margin-left: 500px;
+     margin-right: 500px;
+
+}
+
+.counter {
+    display: inline-block;
+    margin: 20px;
+    padding: 100px 150px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 240px;
+    background-color: yellowgreen;
+}
+button {
+    font-size: 24px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: coral;
+    
+}
+
+
+@media only screen and (max-width: 850px) {
+   
+    .nav{
+        
+        margin: 210px;
+        width: 250px;
+        margin-bottom: 10px;
+       margin-left: 220px;
+      
+    }
+  }
+
+
+  @media only screen and (min-width: 950px) {
+   
+    .counter{
+        
+        margin: 10px;
+        width: 350px;
+   
+      
+    }
+  }
